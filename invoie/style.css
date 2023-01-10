@@ -1,0 +1,93 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+body{
+    border: 4px solid black;
+   
+}
+/* .main .first .child1 .box-1 .image img{
+    background-repeat: no-repeat;
+    vertical-align: middle;
+} */
+.first, .second{
+    border-bottom: 1px solid black;
+    width: 98%;
+}
+/* .first h3{
+    font-weight: 100dp;
+} */
+.main .box-1{    
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+.main .text-1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.main .text-2{
+    font-size: 25px;
+    font-weight: 500;
+}
+/* .main .first .line hr{
+    color: black;
+    
+} */
+#table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#table th{
+    text-align: center;
+}
+#table th, td{
+    border: 1px solid black;
+    padding: 5px;  
+}
+#table tr:nth-child(even){
+    background-color:#dddddd;
+}
+.second .second-Box-t1 .heading{
+    font-weight: 500;
+}
+.second .second-3{
+    margin: 5px 0;
+}
+.second .text-10{
+    text-align: right;
+}
+.second .text-11{
+    text-align: left;
+}
+.last-box{
+    align-content: space-around;
+}
+.last-box li{
+    list-style: none;
+    display: inline-block;
+    border-top: black;
+    position: relative;
+}
+.last-box .common{
+    text-decoration: overline;
+
+}
+.last-box .sign1{
+    position: absolute;
+    left: 10%;
+
+}
+.last-box .sign2{
+    position: absolute;
+    left: 45%;
+    
+}
+.last-box .sign3{
+    position: absolute;
+    left: 80%;
+}
